@@ -39,8 +39,8 @@ Generated 25 data points
     - Tested λ values:
       λ ∈ {0, 1e-12, 1e-10, 1e-8, 0.01}
     - Results (MSE vs True Function)
-        -      λ      Value MSE
-                0      0.0335
+              λ      Value MSE
+              0        0.0335
               1e-12	   0.0302
               1e-10	   0.0267 (Best)
               1e-8	   0.1217
