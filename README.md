@@ -70,21 +70,21 @@ Generated 25 data points
     - Test: 500
 #### Linear Logistic Regression
 ```
--   Dataset	    Accuracy	Precision	Recall
+    Dataset	    Accuracy	Precision	Recall
     Training	  0.9852	  0.9121	  0.7411
-    Validation	  0.99	    0.9091	  0.8696
-    Test	        0.98	    0.8750	  0.6364
+    Validation	  0.99	     0.9091	   0.8696
+    Test	       0.98	     0.8750	   0.6364
 ```
 #### Polynomial Logistic Regression
 ```
-- Degree	     Key Insight
+  Degree	     Key Insight
      2	         Slight improvement
      5	         Best balance
      9	         Overfitting
 ```
 #### Model Comparison
 ```
--  Model	   Observation
+   Model	   Observation
    Linear	    Good baseline
    Poly (2)	  Slightly better
    Poly (5)	  Best generalization
