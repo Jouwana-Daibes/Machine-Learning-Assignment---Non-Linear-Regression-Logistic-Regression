@@ -39,22 +39,22 @@ Generated 25 data points
     - Tested λ values:
       λ ∈ {0, 1e-12, 1e-10, 1e-8, 0.01}
     - Results (MSE vs True Function)
-        - λ Value	MSE
-          -   0   -> 0.0335
-          - 1e-12	-> 0.0302
-          - 1e-10	-> 0.0267 (Best)
-          - 1e-8	-> 0.1217
-          - 0.01	-> 0.4176
+        -      λ      Value MSE
+                0      0.0335
+              1e-12	   0.0302
+              1e-10	   0.0267 (Best)
+              1e-8	   0.1217
+              0.01	   0.4176
 
           Best λ = 1e-10
           Note: Tiny regularization improves generalization slightly
 
 #### RBF (Radial Basis Function) Regression
-  - RBFs	MSE
-      - 1	 -> 0.4903
-      - 5	 -> 0.3145
-      - 10 ->	0.0381 (Best)
-      - 50 ->	Overfitting
+  -     RBFs	MSE
+        1	    0.4903
+        5	    0.3145
+        10   	0.0381 (Best)
+        50  	Overfitting
 
 #### Key Insight:
 - Few RBFs → Underfitting
@@ -70,18 +70,14 @@ Generated 25 data points
     - Test: 500
 #### Linear Logistic Regression
 - **Dataset	    Accuracy	Precision	Recall**
-  ```
     Training	  0.9852	  0.9121	  0.7411
     Validation	0.99	    0.9091	  0.8696
     Test	      0.98	    0.8750	  0.6364
-  ```
 #### Polynomial Logistic Regression
-- **Degree**	**Key Insight**
-  ```
+- **Degree**	  **Key Insight**
      2	        Slight improvement
      5	        Best balance
      9	        Overfitting
-   ```
 #### Model Comparison
 -  **Model	   Observation**
      Linear	   Good baseline
@@ -94,7 +90,7 @@ Best Model
  #### ROC Curve
   - AUC = 0.99
     Indicates excellent classification performance
-##### Key Insights
+#### Key Insights
 ##### Regression
   - Small regularization improves performance
   - Model complexity must be controlled
