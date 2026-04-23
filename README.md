@@ -72,8 +72,8 @@ Generated 25 data points
 ```
 -   Dataset	    Accuracy	Precision	Recall
     Training	  0.9852	  0.9121	  0.7411
-    Validation	0.99	    0.9091	  0.8696
-    Test	      0.98	    0.8750	  0.6364
+    Validation	  0.99	    0.9091	  0.8696
+    Test	        0.98	    0.8750	  0.6364
 ```
 #### Polynomial Logistic Regression
 ```
@@ -85,10 +85,10 @@ Generated 25 data points
 #### Model Comparison
 ```
 -  Model	   Observation
-   Linear	   Good baseline
-   Poly (2)	 Slightly better
-   Poly (5)	 Best generalization
-   Poly (9)	 Overfits training data
+   Linear	    Good baseline
+   Poly (2)	  Slightly better
+   Poly (5)	  Best generalization
+   Poly (9)	  Overfits training data
 ```
 Best Model
 - Polynomial Logistic Regression (Degree = 5)
