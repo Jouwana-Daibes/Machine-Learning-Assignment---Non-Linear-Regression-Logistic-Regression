@@ -48,9 +48,7 @@ This assignment explores two core machine learning concepts:
 - Generated **25 data points**
 
 ### True Function
-\[
-y = \sin(5\pi x)
-\]
+`y = sin(5πx)`
 
 ---
 
@@ -74,7 +72,7 @@ Tiny regularization improves generalization slightly
 
 ---
 
-### 🔹 RBF (Radial Basis Function) Regression
+### RBF (Radial Basis Function) Regression
 
 | # RBFs | MSE                  |
 |--------|----------------------|
@@ -120,8 +118,8 @@ Tiny regularization improves generalization slightly
 | Degree | Key Insight           |
 |--------|----------------------|
 | 2      | Slight improvement   |
-| 5      | Best balance ✅       |
-| 9      | Overfitting ⚠️       |
+| 5      | Best balance         |
+| 9      | Overfitting         |
 
 ---
 
@@ -131,8 +129,8 @@ Tiny regularization improves generalization slightly
 |----------|------------------------------|
 | Linear   | Good baseline                |
 | Poly (2) | Slightly better              |
-| Poly (5) | Best generalization ✅        |
-| Poly (9) | Overfits training data ⚠️    |
+| Poly (5) | Best generalization          |
+| Poly (9) | Overfits training data      |
 
 ---
 
